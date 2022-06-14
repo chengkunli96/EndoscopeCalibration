@@ -1,2 +1,3 @@
 .vscode
-./data
+data
+scripts/matlab2OpencvYaml/calibration_sessions
