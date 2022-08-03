@@ -6,7 +6,12 @@ img[src*="#width-full"] {
 }
 </style>
 
-# Calibration for endoscope
+# Calibration for Endoscope
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![GitHub stars](https://img.shields.io/github/stars/chengkunli96/EndoscopeCalibration.svg?style=social)](https://github.com/chengkunli96/EndoscopeCalibration/stargazers)
+
+This reporsitory aims to provide some scripts for easily doing calibration for stereo camera. Here, I use endoscope calibration case as example. And the nessary steps could be found below.
 
 ## Checkerboard Type
 Our lab's [checkerboard](./docs/images/checker_board_type.jpg#width-full) could be found here.
