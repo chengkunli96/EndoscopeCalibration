@@ -18,7 +18,7 @@ Our lab's [checkerboard](./docs/images/checker_board_type.jpg#width-full) could 
 
 ## Prepare for calibration
 ``` bash
-cd script
+cd scripts
 ``` 
 
 ![stereo_video](./docs/images/stereo_video.png#width-full)
