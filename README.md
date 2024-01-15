@@ -59,7 +59,7 @@ python resizeImageSequence.py --dir img_seq_dir --save proc_sv_dir --resize resw
 4. You will see the error result in `Reprojection Errors` window. Drop the red line in this window to select the outlier which you want to delete.
 5. Then right click on the image pair you selected, click `Remove and Recalibrate`. Please notice, sometimes, error happens and it maybe do not do recalibrate automatically. In this strange case, you can print `Calibrate` button manually (by check or non-check skew, this button will reactivate). 
 6. Finally, print `Export Camera Parameters/Export to workspace`, and make sure the stereo parameters variable is `stereoParams` and press `OK`.
-7. In the workspace of matlab, make sure the workspace path is in _./scripts/matlab2OpencvYaml_, run script `saave2yaml`. And you will find an _endoscope_calibration.yaml_ file in _./scripts/matlab2OpencvYaml/out_.
+7. In the workspace of matlab, make sure the workspace path is in _./scripts/matlab2OpencvYaml_, run script `save2yaml`. And you will find an _endoscope_calibration.yaml_ file in _./scripts/matlab2OpencvYaml/out_.
 
 ## Other instruction
 1. The camera parameters will change when you do crop or resize operation: For cropping, `cx, cy` which change, and `cx, cy, fx, fy` will change basing on resize ratio in the case of resize. However, `baseline` parameter will never be changed.
